@@ -21,17 +21,20 @@ The system supports user registration, login authentication, JWT token generatio
 1. **User Registration**
    Users can register by providing a username, email, and password (hashed using bcrypt).
 
-   ![Registration Form](/mnt/data/6f79d030-2a5d-4aec-9335-27e27bffa107.png)
+   ![Registration Form](/mnt/data/6f79d030-2a5d-4aec-9335-27e27bffa107.png) ![image](https://github.com/user-attachments/assets/f40e83f5-2e2e-4048-a955-93319c99e68c)
+
 
 2. **User Login**
    Users can log in using their email and password. On successful login, a JWT token is generated and stored on the frontend for session management.
 
-   ![Login Form](/mnt/data/0d79fec8-2ca2-4c5d-b282-55521e6e8dee.png)
+   ![Login Form](/mnt/data/0d79fec8-2ca2-4c5d-b282-55521e6e8dee.png) ![image](https://github.com/user-attachments/assets/80e98d9d-a756-4749-b2a5-3583f4731bad)
+
 
 3. **Protected Profile Route**
    Once logged in, users can access a protected profile page that displays a welcome message with their username and email.
 
-   ![Profile Page](/mnt/data/cca22629-df51-4791-94d3-9f853d0fc812.png)
+   ![Profile Page](/mnt/data/cca22629-df51-4791-94d3-9f853d0fc812.png) ![image](https://github.com/user-attachments/assets/2d89e9c7-e91b-4c5c-ad39-5aabdae54d9c)
+
 
 4. **Logout**
    Users can log out which clears the stored JWT token on the frontend.
